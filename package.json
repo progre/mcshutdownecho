@@ -1,8 +1,12 @@
 {
-  "name": "mcshutdownecho",
+  "name": "@progre/mcshutdownecho",
   "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/progre/mcshutdownecho.git",
   "author": "progre",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/cron": "^1.2.1",
+    "cron": "^1.2.1"
+  }
 }
